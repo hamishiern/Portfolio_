@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fatimath Hameema Sherin | Portfolio</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<body id="">
+  <img src="gradient.png" class="image-gradient" alt="gradient">
+  <div class="layer-blur"></div>
+
+  <div class="container">
+    <header>
+      <h1 class="logo">HSHERIN</h1>
+
+      <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>  <!-- Font Awesome hamburger icon -->
+      </div>
+
+      <Nav class="sidebar" id="sidebar">
+        <a  href="#">HOME</a>
+        <a  href="#about">ABOUT</a>
+        <a  href="#skills">SKILLS</a>
+        <a  href="#projects">PROJECTS</a>
+        <a  href="#contact">CONTACT</a>
+      </Nav>
+
+      <button class="btn-signing" style="visibility: hidden;">CONTACT</button>           
+
+    </header>
+
+    <main>
+        <div class="content">
+          <h1>TECH & DESIGN<br>STRATEGIST</h1>
+          <p>Driven by purpose. Powered by Design. Enabled by Technology.</p>
+          <div class="tag-box">
+            <div class="tag">PORTFOLIO</div>
+          </div>
+
+          <div class="buttons">
+            <a href="Tech and Design Strategist.pdf" class="btn-get-started">Download CV <i class="fa-solid fa-file-arrow-down"></i></a>
+            <a href="mailto:shirinhami25@gmail.com" class="btn-signing-main">CONTACT <i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+    </main>
+
+    <div class="spline-container">
+      <spline-viewer class="robot-3d" url="https://prod.spline.design/huIV8qISnPdGY1-q/scene.splinecode"></spline-viewer>
+      <div class="spline-watermark"></div>
+    </div>
+
+
+    <!-- ABOUT -->
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm Fatimath Hameema Sherin — a passionate UI/UX designer & developer dedicated to crafting beautiful and functional digital experiences. I specialize in creating interactive user interfaces with a focus on usability and aesthetic design.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <h2>Skills</h2>
+  <div class="skill-icons">
+    <i class="fab fa-html5" title="HTML5"></i>
+    <i class="fab fa-css3-alt" title="CSS3"></i>
+    <i class="fab fa-js" title="JavaScript"></i>
+    <i class="fab fa-figma" title="Figma"></i>
+    <i class="fab fa-git-alt" title="Git"></i> 
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Sales Forecasting System</h3>
+      <p>A machine learning web app to predict sales using Random Forest. Built with Flask, Chart.js, and PostgreSQL.</p>
+      <div class="project-buttons">
+        <a href="https://your-live-demo-link.com" target="_blank">Live Demo</a>
+        <a href="https://github.com/your-repo/sales-forecasting" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Resume Tracking System</h3>
+      <p>An intelligent tool that scores resumes using NLP enhancing the resume. Built with Python and Streamlit.</p>
+      <div class="project-buttons">
+        <a href="https://your-resume-tracker-demo.com" target="_blank">Live Demo</a>
+        <a href="https://github.com/your-repo/resume-tracker" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Python Sales Dashboard</h3>
+      <p>A BI dashboard using matplotlib, seaborn, and Plotly. Features dynamic visualizations and KPIs.</p>
+      <div class="project-buttons">
+        <a href="https://your-dashboard-demo.com" target="_blank">Live Demo</a>
+        <a href="https://github.com/your-repo/python-sales-dashboard" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <div class="contact-container">
+    <form class="contact-form" action="mailto:shirinhami25@gmail.com" method="POST" enctype="text/plain">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+
+</div>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    Aos.init()
+  </script>
+<script src="script.js"></script>
+
+<footer style="text-align: center; padding: 1rem; font-size: 0.8rem; color: gray;">
+  &copy; 2025 Fatimath Hameema Sherin. All rights reserved.
+</footer>
+
+</body>
+</html>
